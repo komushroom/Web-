@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+.clearfix::before, .clearfix::after {display: block; content: ''; clear: both;}
+
+#wrap{
+    width: 1200px;
+    margin: auto;
+    height: 700px;
+    background: #fffff1f;
+}
+
+#header{
+    background-color: #444;
+    height: 100px;
+}
+#header h1{
+    float: left;
+}
+#header h1 img{
+    width: 100px;
+    padding: 20px;
+}
+#header .nav {
+    float: right;
+}
+
+#header .nav li {
+    float: left;
+}
+
+#header .nav li a{
+    display: block;
+    padding: 25px 30px;
+}
+
+.nav{
+    float: right;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #222328;
+}
+/* #banner{
+    
+}
+
+#content1{
+
+}
+
+#content2{
+
+}
+
+#footer{
+
+} */
